@@ -34,6 +34,7 @@ Citizen.CreateThread(function()
     Ammunations.LoadDefault()
     LesterFactory.LoadDefault()
     StripClub.LoadDefault()
+    CargoShip.LoadDefault()
 
     Graffitis.Enable(true)
 
@@ -176,7 +177,7 @@ Citizen.CreateThread(function()
         CriminalEnterpriseWarehouse.LoadDefault() -- 849.1047, -3000.209, -45.974354
     end
 
-        -- ====================================================================
+    -- ====================================================================
     -- =------------------- [DLC: Los Santos Drug Wars] ------------------=
     -- ====================================================================
     if GetGameBuildNumber() >= 2802 then
@@ -191,6 +192,7 @@ Citizen.CreateThread(function()
     if GetGameBuildNumber() >= 2944 then
         MercenariesClub.LoadDefault() -- 1202.407, -3251.251, -50.000
         MercenariesLab.LoadDefault() -- -1916.119, 3749.719, -100.000
+        MercenariesFixes.LoadDefault()
     end
 
     -- ====================================================================
